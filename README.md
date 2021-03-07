@@ -2,7 +2,8 @@
 
 
 Hola,
-**ACTUALIZACION V3**
+
+**ACTUALIZACION V3 DISPONIBLE**
 
   Realice dos versiones de las funciones, y he adjuntado los dos ficheros en el proyecto:
   
