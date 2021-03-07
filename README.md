@@ -19,9 +19,13 @@ Hola,
   
 
  **V3**=> Cambio radical en tiempos de ejecución:
- El principal cambio de esta versión es que después de generarse la matriz, se verifica que no haya **árboles aislados**. Cualquier árbol que no tenga arriba, abajo, izquierda o derecha fuego u otro árbol, es imposible que se queme. Por lo tanto nada más encontrar uno, paramos la busqueda y devolvemos -1. Sin tener que ejecutar ya todo el código, la mayoría de las veces se pasa a ejecutar matrices enormes en segundos.
+ El principal cambio de esta versión es que después de generarse la matriz, se verifica que no haya **árboles aislados**. 
+ 
+ Cualquier árbol que no tenga arriba, abajo, izquierda o derecha fuego u otro árbol, es imposible que se queme. Por lo tanto nada más encontrar uno, paramos la busqueda y devolvemos -1. Sin tener que ejecutar ya todo el código, la mayoría de las veces se pasa a ejecutar matrices enormes en segundos.
+ 
  En la version 2 también se ejecutaba la función quitarDuplicados, que ejecutaba varios bucles para limpiar el array de contenidos repetidos, y ahora se borran directamente en la función quemar para simplificarlo. También se han reducido en esta última 4 ifs en solo uno.
  
  
+
 Si necesitan alguna aclaración no duden en escribirme!
   
